@@ -1,0 +1,32 @@
+.slick-slide {
+  padding: 0 10px; /* Menambahkan padding di kiri dan kanan setiap slide */
+}
+
+.slick-list {
+  margin: 0 -10px; /* Menambahkan margin negatif agar padding tidak mempengaruhi keseluruhan lebar */
+}
+
+.card {
+  width: 100%;
+  height: 400px; /* Atur tinggi yang sama untuk semua kartu */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.card img {
+  height: 200px; /* Atur tinggi gambar */
+  object-fit: cover; /* Untuk memastikan gambar terpotong secara proporsional */
+  width: 100%;
+}
+
+.card h3 {
+  flex-grow: 1;
+}
+
+.card p {
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-end;
+}
